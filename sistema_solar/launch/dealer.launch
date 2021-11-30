@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+    <!--Parameters-->
+    <rosparam comand="load" file="$(find sistema_solar)/param/nomes.yaml"/>
+
+    <!-- Lauch serve para rodar vários nós juntos-->
+    <node pkg="sistema_solar" name= 'es_code' type='es_code.py'/>
+
+</launch>

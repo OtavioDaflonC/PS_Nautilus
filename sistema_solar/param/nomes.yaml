@@ -1,0 +1,22 @@
+lista:
+  #apesar do nome, é um dicionário composto.
+  plt1:
+    nome:
+      'Terra'
+    distancia:
+      1
+  plt2:
+    nome: 
+      'Venus'
+    distancia:
+      2
+  plt3:
+    nome:
+      'Marte'
+    distancia:
+      3
+
+
+
+
+  
